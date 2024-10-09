@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="Leeto">
+    <description>Leeto Coding Standard</description>
+    <arg name="extensions" value="php"/>
+    <rule ref="Leeto.Security.XssTemplate.FoundUnescaped">
+        <severity>10</severity>
+        <type>error</type>
+    </rule>
+</ruleset>
