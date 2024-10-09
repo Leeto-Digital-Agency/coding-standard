@@ -1,5 +1,5 @@
 {
-    "name": "Leeto-Digital-Agency/coding-standard",
+    "name": "leeto-digital-agency/coding-standard",
     "type": "phpcodesniffer-standard",
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
