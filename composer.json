@@ -8,9 +8,6 @@
         "squizlabs/php_codesniffer": "^3.6.1"
     },
     "autoload": {
-        "classmap": [
-            "PHP_CodeSniffer/Tokenizers/"
-        ],
         "psr-4": {
             "Leeto\\": "Leeto/"
         }
