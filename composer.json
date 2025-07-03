@@ -1,6 +1,9 @@
 {
     "name": "leeto-digital-agency/coding-standard",
     "type": "phpcodesniffer-standard",
+    "extra": {
+        "phpcodesniffer-standard": ["Leeto"]
+    },
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
         "ext-simplexml": "*",
@@ -11,9 +14,5 @@
         "psr-4": {
             "Leeto\\": "Leeto/"
         }
-    },
-    "scripts": {
-        "post-install-cmd": "vendor/bin/phpcs --config-set installed_paths ../../vendor/leeto-digital-agency/coding-standard",
-        "post-update-cmd": "vendor/bin/phpcs --config-set installed_paths ../../vendor/leeto-digital-agency/coding-standard"
     }
 }
