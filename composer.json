@@ -11,5 +11,9 @@
         "psr-4": {
             "Leeto\\": "Leeto/"
         }
+    },
+    "scripts": {
+        "post-install-cmd": "vendor/bin/phpcs --config-set installed_paths ../../vendor/leeto-digital-agency/coding-standard",
+        "post-update-cmd": "vendor/bin/phpcs --config-set installed_paths ../../vendor/leeto-digital-agency/coding-standard"
     }
 }
